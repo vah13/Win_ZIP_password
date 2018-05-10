@@ -1,11 +1,11 @@
 # Win_ZIP_password
 
 ## Description:
-In Windows 10 Microsoft released new functions for encrypted zip files to make it more user friendly, I suppose. When you open one time encrypted ZIP file, Windows 10 saves the password in the memory. When you will try to open again this ZIP file, Windows 10 will take the path of the file, search in the memory the real path of last open ZIP files, and if he found ZIP-password couple then he will try to open the encrypted ZIP file. 
+Here's an updated description:
 
-I saw that if you will try to hook SHUnicodeToAnsi function from ShLwApi.dll in ZIP opening time, then you can know the password of an encrypted ZIP file. 
+With Windows 10, Microsoft added a new feature for encrypted ZIP files to increase user-friendliness. When you open an encrypted ZIP file, Windows 10 saves the password to memory. When you try to open the same ZIP file again, Windows takes the file path, searches the memory and will use the stored password.
 
-The passwords stored in explorer.exe memory.
+I saw that if you hook SHUnicodeToAnsi from ShLwApi.dll while opening a ZIP, you can see the password of the encrypted ZIP file.
 
 ![](https://github.com/vah13/hooker_ZIP_password/blob/master/hook2.gif)
 (https://raw.githubusercontent.com/vah13/Win_ZIP_password/master/hook2.gif)
@@ -25,3 +25,7 @@ Need to
 
 ## Useful for
 CTF/Forensic
+
+## Thank you
+https://twitter.com/NewFranny
+https://www.reddit.com/user/TheMooligan101
