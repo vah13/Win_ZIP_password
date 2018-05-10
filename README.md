@@ -11,7 +11,7 @@ The passwords stored in explorer.exe memory.
 
 ## Windows 10 version
 ```
-OS Name:                   Майкрософт Windows 10 Pro
+OS Name:                   Microsoft Windows 10 Pro
 OS Version:                10.0.17134 N/A Build 17134
 explorer.exe               10.0.17134.1
 ```
