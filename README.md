@@ -22,5 +22,5 @@ Need to
 1. Get all ZIP files paths from explorer.exe memory and extract passwords
 2. Analyze password storage
 
-## using for
+## Useful for
 CTF/Forensic
