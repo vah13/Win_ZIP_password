@@ -1,7 +1,6 @@
 # Win_ZIP_password
 
 ## Description:
-Here's an updated description:
 
 With Windows 10, Microsoft added a new feature for encrypted ZIP files to increase user-friendliness. When you open an encrypted ZIP file, Windows 10 saves the password to memory. When you try to open the same ZIP file again, Windows takes the file path, searches the memory and will use the stored password.
 
