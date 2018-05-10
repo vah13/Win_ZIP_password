@@ -21,3 +21,6 @@ explorer.exe               10.0.17134.1
 Need to 
 1. Get all ZIP files paths from explorer.exe memory and extract passwords
 2. Analyze password storage
+
+## using for
+CTF/Forensic
